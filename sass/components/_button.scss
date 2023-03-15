@@ -1,0 +1,14 @@
+.btn {
+    background-color: $black;
+    border-style: none;
+    cursor: pointer;
+    padding: 15px 20px;
+
+    &:hover {
+        background-color: $very-dark-gray;
+    }
+
+    @include respond(desktop) {
+        padding: 2.16rem 2.16rem;
+    }
+}

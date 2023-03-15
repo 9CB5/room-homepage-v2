@@ -1,0 +1,39 @@
+body {
+    font-family: 'League Spartan', sans-serif;
+}
+
+.heading {
+    &--primary {
+        color: $black;
+        font-size: 3rem;
+        font-weight: 600;
+        padding-bottom: 2rem;
+
+        @include respond(desktop) {
+            font-size: 4rem;
+        }
+    }
+
+    &--secondary {
+        color: $black;
+        font-size: 1.3rem;
+        letter-spacing: 0.4rem;
+        padding-bottom: 1rem;
+        text-transform: uppercase;
+    }
+}
+
+.sentence {
+    color: $dark-gray;
+    font-size: 1.3rem;
+    font-weight: 100;
+    line-height: 1.7rem;
+
+    &--header {
+        padding-bottom: 3rem;
+    }
+
+    &--about {
+        padding-bottom: 0rem;
+    }
+}

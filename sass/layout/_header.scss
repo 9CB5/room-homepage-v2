@@ -1,0 +1,61 @@
+.header {
+    display: flex;
+    width: 100% !important;
+
+    @include respond(desktop) {
+        justify-content: center;
+    }
+
+    &__box {
+        @include respond(desktop) {
+            max-width: 120rem;
+            display: flex;
+        }
+    }
+
+    &__image {
+        position: relative;
+
+        @include respond(desktop) {
+            width: 60%;
+        }
+    }
+
+    &__buttons-box {
+        bottom: 3px;
+        display: flex;
+        position: absolute;
+        right: 0;
+
+        @include respond(desktop) {
+            bottom: 0;
+            right: -11rem;
+        }
+    }
+
+    &__description {
+        padding: 6rem 2rem;
+
+        @include respond(desktop) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 6rem 6rem;
+            width: 40%;
+        }
+    }
+
+    &__shop {
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        font-size: 1.4rem;
+        gap: 2rem;
+        letter-spacing: 1rem;
+        text-transform: uppercase;
+
+        &:hover {
+            color: $dark-gray;
+        }
+    }
+}

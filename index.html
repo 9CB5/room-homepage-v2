@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <!-- Meta data -->
+    <!-------------------------------------------------------------------------------------------->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Room</title>
+
+    <!-- Font -->
+    <!-------------------------------------------------------------------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="./images/favicon-32x32.png">
+
+    <!-- CSS -->
+    <!-------------------------------------------------------------------------------------------->
+    <link rel="stylesheet" href="css/style.css?v=1.0">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <!-------------------------------------------------------------------------------------------->
+    <nav class="navigation">
+        <div class="navigation__box">
+            <!-- Logo -->
+            <!---------------------------------------------------------------------------------------->
+            <img alt="logo" class="navigation__logo" src="./images/logo.svg">
+
+            <!-- Links -->
+            <!---------------------------------------------------------------------------------------->
+            <ul class="navigation__list">
+                <li class="navigation__item"><a class="navigation__link" href="#">home</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#">shop</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#">about</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#">contact</a></li>
+            </ul>
+
+            <!-- Burger -->
+            <!---------------------------------------------------------------------------------------->
+            <img
+                alt="burger"
+                class="navigation__burger"
+                src="./images/icon-hamburger.svg"
+            />
+        </div>
+
+        <div class="navigation__overlay"></div>
+    </nav>
+
+    <!-- Header -->
+    <!-------------------------------------------------------------------------------------------->
+    <header class="header">
+        <div class="header__box">
+            <div class="header__image">
+                <img class="header__img h-100 w-100" src="./images/mobile-image-hero-1.jpg" alt="header image">
+
+                <div class="header__buttons-box">
+                    <button class="btn prev">
+                        <img src="./images/icon-angle-left.svg" alt="previous">
+                    </button>
+
+                    <button class="btn next">
+                        <img src="./images/icon-angle-right.svg" alt="next">
+                    </button>
+                </div>
+            </div>
+
+            <aside class="header__description">
+                <h1 class="heading--primary">
+                    Discover innovative ways to decorate
+                </h1>
+
+                <p class="sentence sentence--header">
+                    We provide unmatched quality, comfort, and style for property owners across
+                    the country. Our experts combine form and function in bringing your vision to life.
+                    Create a room in your own style with our collection and make your property a
+                    reflection of you and what you love.
+                </p>
+
+                <span class="header__shop">
+                    shop now
+
+                    <img src="images/icon-arrow.svg" alt="shop now"/>
+                </span>
+            </aside>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="about__box">
+            <img
+                alt="black chairs and wooden table"
+                class="about__image"
+                src="./images/image-about-dark.jpg"
+            >
+
+            <aside class="about__sentence">
+                <h2 class="heading--secondary">About our furniture</h2>
+
+                <p class="sentence sentence--about">
+                    Our multifunctional collection blends design and function to suit your individual
+                    taste. Make each room unique, or pick a cohesive theme that best express your interests
+                    and what inspires you. Find the furniture peices you need, from traditional to contemporary
+                    styles or anything in between. Product specialists are available to help you create
+                    your dream space.
+                </p>
+            </aside>
+
+            <img
+                src="./images/image-about-light.jpg"
+                alt="white chair"
+                class="about__image"
+            >
+        </div>
+    </section>
+
+    <!-- Script import -->
+    <!-------------------------------------------------------------------------------------------->
+    <script src="./script.js"></script>
+</body>
+</html>
